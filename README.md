@@ -1,4 +1,4 @@
-# Continuous Integration [![Build Status](https://travis-ci.org/buildfirst/ci-by-example.png?branch=master)](https://travis-ci.org/buildfirst/ci-by-example)
+# [Continuous Integration](https://github.com/buildfirst/ci-by-example) [![Build Status](https://travis-ci.org/buildfirst/ci-by-example.png?branch=master)](https://travis-ci.org/buildfirst/ci-by-example)
 
 _This repository is part of the **Designing Javascript Applications: A Build First Approach** book's code samples_, the full original for the code samples [can be found here](https://github.com/bevacqua/buildfirst). You can [learn more about the book itself here](http://bevacqua.io/buildfirst).
 
