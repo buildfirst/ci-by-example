@@ -41,9 +41,20 @@ Awesome! Now all we need to do is visit [travis-ci](https://travis-ci.org/), and
 
 ![repos.png][2]
 
-Turn `username/ci-by-example` on, wait for it, and then click on the little settings icon. Then simply follow the install notes. If Travis didn't fill it for you, you'll need to enter your username and token, [which can be found here](https://travis-ci.org/profile/me/profile).
+Turn `username/ci-by-example` on, wait for it, and then click on the little settings icon. Then simply follow the install notes. If Travis didn't fill them in for you, you'll need to enter your credentials: the username and API token, [which can be found here](https://travis-ci.org/profile/me/profile).
+
+Once that's done, clicking on **Test Hook** should trigger a build. A [Build Status badge](http://about.travis-ci.org/docs/user/status-images/) could now be yours!
+
+```markdown
+[![Build Status](https://travis-ci.org/{you}/{project}.png)](https://travis-ci.org/{you}/{project})
+```
+
+And voilá!
+
+![badge.png][3]
 
 For more information you can visit [the guide provided by Travis-CI](http://about.travis-ci.org/docs/user/languages/javascript-with-nodejs/).
 
   [1]: http://i.imgur.com/6H2aNBe.png "I clicked on @bevacqua"
   [2]: http://i.imgur.com/TrpD3Wu.png "Turn ci-by-example on!"
+  [3]: http://i.imgur.com/rXPjs12.png "A Build Status badge in action"
