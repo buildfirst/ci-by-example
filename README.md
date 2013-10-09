@@ -27,12 +27,23 @@ All there's left, then, is to set up a `ci` task for Grunt. The task just runs `
 
 ### Configuring It
 
-You'll probably want to try this example out yourself. First thing you'll need is a `git` repository that's configured to run on Travis. That's easy, you could just fork this one.
+You'll probably want to try this example out yourself. First thing you'll need is a `git` repository that's configured to run on Travis. That's easy, you could just fork this one by following a series of simple steps.
 
-```shell
-hub fork buildfirst/ci-by-example
-```
+- Visit the [repository fork page](https://github.com/buildfirst/ci-by-example/fork)
 
-Awesome! Now I need to push so I can fork and try it by myself.
+Just click on the damn link already!
+
+- Click on your username if need be.
+
+![fork.png][1]
+
+Awesome! Now all we need to do is visit [travis-ci](https://travis-ci.org/), and click on **Sign in with GitHub**. If you don't have an account yet, you'll be prompted to create one, do that. It's free. Once you've signed in, [visit your profile page](https://travis-ci.org/profile), and click on **Sync Now**, so Travis gets all your GitHub repository information he needs. You'll get a list of public repositories you own.
+
+![repos.png][2]
+
+Turn `username/ci-by-example` on, wait for it, and then click on the little settings icon. Then simply follow the install notes. If Travis didn't fill it for you, you'll need to enter your username and token, [which can be found here](https://travis-ci.org/profile/me/profile).
 
 For more information you can visit [the guide provided by Travis-CI](http://about.travis-ci.org/docs/user/languages/javascript-with-nodejs/).
+
+  [1]: http://i.imgur.com/6H2aNBe.png "I clicked on @bevacqua"
+  [2]: http://i.imgur.com/TrpD3Wu.png "Turn ci-by-example on!"

@@ -5,7 +5,10 @@ module.exports = function (grunt) {
   grunt.initConfig({
     jshint: {
       support: ['Gruntfile.js'],
-      server: ['app.js']
+      server: ['app.js'],
+      options: {
+        jshintrc: '.jshintrc'
+      }
     }
   });
 
