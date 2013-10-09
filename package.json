@@ -7,6 +7,9 @@
     "email": "buildfirst@bevacqua.io",
     "url": "http://bevacqua.io/buildfirst"
   },
+  "keywords": [
+    "buildfirst"
+  ],
   "devDependencies": {
     "grunt": "0.4.1",
     "grunt-contrib-jshint": "0.6.4"
