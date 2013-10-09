@@ -2,7 +2,7 @@
 
 _This repository is part of the **Designing Javascript Applications: A Build First Approach** book's code samples_, the full original for the code samples [can be found here](https://github.com/bevacqua/buildfirst). You can [learn more about the book itself here](http://bevacqua.io/buildfirst).
 
-This tutorial is part of the [code samples](https://github.com/bevacqua/buildfirst/tree/master/ch04) accompanying the book in _Chapter 4_, about the release flow, deployments, and hosted application monitoring.
+This tutorial is part of the code samples accompanying the book [in _Chapter 4_](https://github.com/bevacqua/buildfirst/tree/master/ch04), about the release flow, deployments, and hosted application monitoring.
 
 ### Introduction
 
