@@ -46,7 +46,7 @@ Turn `username/ci-by-example` on, wait for it, and then click on the little sett
 Once that's done, clicking on **Test Hook** should trigger a build. A [Build Status badge](http://about.travis-ci.org/docs/user/status-images/) could now be yours!
 
 ```markdown
-[![Build Status](https://travis-ci.org/{you}/{project}.png)](https://travis-ci.org/{you}/{project})
+[![Build Status](https://travis-ci.org/{user}/{repo}.png)](https://travis-ci.org/{user}/{repo})
 ```
 
 And voilá!
